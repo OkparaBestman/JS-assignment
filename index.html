@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment 5</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>ATTENDANCE SHEET</h1>
+    <div class="inputField">
+        <form id="form" action="">
+            <div>
+                <label for="name"></label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your Fullname">
+            </div>
+
+
+            <div class="">
+                <label for="number"></label>
+                <br>
+                <input type="number" name="number" id="number" placeholder="Enter your Seat number">
+            </div>
+            <div class="">
+                <label for="city"></label>
+                <br>
+                <input type="text" name="city" id="city" placeholder="Enter your Class">
+            </div>
+
+            <input type="submit" name="button" value = "submit" id="button">
+
+        </form>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <div class="tableContainer">
+        <table id="table">
+            <tr>
+                <th id="ser">S/N</th>
+                <th id="nam">Name</th>
+                <th id="num">Seat Number</th>
+                <th id="cit">Class</th>
+                <th id="att">Attendance</th>
+            </tr>
+        </table>
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>
